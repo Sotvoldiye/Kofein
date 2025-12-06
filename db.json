@@ -1,0 +1,343 @@
+{
+  "admins": [
+    {
+      "id": "1",
+      "name": "admin",
+      "password": "admin123"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Анна",
+      "surename": "Иванова",
+      "position": "Бариста",
+      "password": "1111"
+    },
+    {
+      "id": "2",
+      "name": "User2",
+      "surename": "Иванова",
+      "position": "Бариста",
+      "password": "2222"
+    },
+    {
+      "id": "3",
+      "name": "User3",
+      "surename": "Иванова",
+      "position": "Бариста",
+      "password": "3333"
+    },
+    {
+      "id": "4",
+      "name": "User4",
+      "password": "4444"
+    },
+    {
+      "id": "5",
+      "name": "User5",
+      "password": "5555"
+    },
+    {
+      "id": "6",
+      "name": "User6",
+      "password": "6666"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "title": "Qahva"
+    },
+    {
+      "id": "2",
+      "title": "Pechenya"
+    },
+    {
+      "id": "3",
+      "title": "Shirinliklar"
+    },
+    {
+      "id": "4",
+      "title": "Ichimliklar"
+    }
+  ],
+  "sizes": [
+    {
+      "id": "1",
+      "label": "1L"
+    },
+    {
+      "id": "2",
+      "label": "1.5L"
+    },
+    {
+      "id": "3",
+      "label": "2L"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "title": "Espresso",
+      "categoryId": 1,
+      "price": 120,
+      "sizes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "description": "Klassik italyan qahvasi, to'yimli va aromatli",
+      "image": "/image/espersso.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Kapuchino",
+      "categoryId": 1,
+      "price": 180,
+      "sizes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "description": "Espresso sutli ko'pik va chiroyli latte-art bilan",
+      "image": "/image/kapuchino.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Sovuq qahva",
+      "categoryId": 1,
+      "price": 200,
+      "sizes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "description": "Muz va sut bilan sovuq va tetiklantiruvchi qahva",
+      "image": "/image/sovuqqahva.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Amerikano",
+      "categoryId": 1,
+      "price": 140,
+      "sizes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "description": "Issiq suv qo'shilgan espresso",
+      "image": "/image/espersso.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Shokoladli pechenye",
+      "categoryId": 2,
+      "price": 90,
+      "sizes": [],
+      "description": "Belgiya shokoladi bo'laklari bilan uy pechenyesi",
+      "image": "/image/pechenya.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Jo'vari pechenyesi",
+      "categoryId": 2,
+      "price": 80,
+      "sizes": [],
+      "description": "Jo'vari va mayiz bilan foydali pechenye",
+      "image": "/image/pechenya.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Chizkeyk",
+      "categoryId": 3,
+      "price": 250,
+      "sizes": [],
+      "description": "Rezavorli sous bilan klassik yumshoq chizkeyk",
+      "image": "/image/chizkeyk.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Kruassan",
+      "categoryId": 3,
+      "price": 150,
+      "sizes": [],
+      "description": "Xrustkor qobiqli yangi fransuz kruassani",
+      "image": "/image/kurasan.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Tiramisu",
+      "categoryId": 3,
+      "price": 280,
+      "sizes": [],
+      "description": "Qahva va maskarpone pishloqi bilan italyan deserti",
+      "image": "/image/chizkeyk.jpg"
+    },
+    {
+      "id": "10",
+      "title": "Limonad",
+      "categoryId": 4,
+      "price": 140,
+      "sizes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "description": "Yalpiz va limon bilan uy limonadi",
+      "image": "/image/apelsin.jpg"
+    },
+    {
+      "id": "11",
+      "title": "Yashil choy",
+      "categoryId": 4,
+      "price": 250,
+      "sizes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "description": "Xushbo'y xitoy yashil choyi",
+      "image": "/image/yashilchoy.jpg"
+    },
+    {
+      "id": "12",
+      "title": "Apelsin sharbati",
+      "categoryId": 4,
+      "price": 250,
+      "sizes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "description": "Yangi siqilgan apelsin sharbati",
+      "image": "/image/apelsin.jpg"
+    }
+  ],
+  "orders": [
+    {
+      "id": "1",
+      "userId": 1,
+      "items": [
+        {
+          "productId": 1,
+          "sizeId": 2,
+          "quantity": 2,
+          "price": 9000
+        }
+      ],
+      "totalQuantity": 2,
+      "totalPrice": 18000,
+      "status": "pending",
+      "createdAt": "2025-12-02T10:00:00"
+    },
+    {
+      "id": "2533",
+      "userId": "1",
+      "items": [
+        {
+          "productId": "7",
+          "sizeId": 1,
+          "quantity": 1,
+          "price": 250
+        }
+      ],
+      "totalQuantity": 1,
+      "totalPrice": 250,
+      "status": "pending",
+      "createdAt": "2025-12-04T15:54:27.061Z"
+    },
+   
+    {
+      "id": "e241",
+      "userId": "1",
+      "items": [
+        {
+          "productId": "2",
+          "sizeId": 1,
+          "quantity": 1,
+          "price": 180
+        }
+      ],
+      "totalQuantity": 1,
+      "totalPrice": 180,
+      "status": "pending",
+      "createdAt": "2025-12-05T16:49:10.075Z"
+    },
+    {
+      "id": "6410",
+      "userId": "1",
+      "items": [
+        {
+          "productId": "6",
+          "sizeId": 1,
+          "quantity": 1,
+          "price": 80
+        }
+      ],
+      "totalQuantity": 1,
+      "totalPrice": 80,
+      "status": "pending",
+      "createdAt": "2025-12-05T16:53:40.144Z"
+    },
+    {
+      "id": "42ab",
+      "userId": "1",
+      "items": [
+        {
+          "productId": "1",
+          "sizeId": 1,
+          "quantity": 1,
+          "price": 120
+        }
+      ],
+      "totalQuantity": 1,
+      "totalPrice": 120,
+      "status": "pending",
+      "createdAt": "2025-12-06T00:17:47.971Z"
+    },
+    {
+      "id": "d5d2",
+      "userId": "1",
+      "items": [
+        {
+          "productId": "1",
+          "sizeId": 1,
+          "quantity": 1,
+          "price": 120
+        },
+        {
+          "productId": "2",
+          "sizeId": 1,
+          "quantity": 1,
+          "price": 180
+        }
+      ],
+      "totalQuantity": 2,
+      "totalPrice": 300,
+      "status": "pending",
+      "createdAt": "2025-12-06T00:19:38.481Z"
+    }
+  ]
+}
